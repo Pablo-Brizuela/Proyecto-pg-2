@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "roboto";
+    font-family: "roboto", sans-serif;
 }
 
 .main-header{
@@ -55,5 +55,30 @@ body{
    display: inline-block;
    padding: 5px 0;
    font-size: 17px;
+}
+
+@media(min-width: 768px){
+    .main-header-top-bar{
+        display: flex;
+
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-buttom{
+        display: none;
+    }
+    .main-navbar{
+        
+        display:flex;
+        justify-content:space-between ;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
 
 }
