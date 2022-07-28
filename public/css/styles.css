@@ -18,8 +18,9 @@ body{
 }
 
 .copy-header{
-    font-weight: 400px;
+    font-weight: 400;
     text-align: center;
+    padding: 30px;
 }
 
 .hamburguer-buttom{
@@ -37,6 +38,7 @@ body{
 
 .main-navbar {
     display: none;
+    padding:20px 0
 
 
 }
@@ -61,10 +63,10 @@ body{
 @media(min-width: 768px){
     .main-header-top-bar{
         display: flex;
-
+justify-content: space-between;
     }
     .copy-header{
-        max-width: 350px;
+        max-width: 400px;
         text-align: right;
     }
     .hamburguer-buttom{
