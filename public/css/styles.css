@@ -38,6 +38,7 @@ body{
 .main-navbar {
     display: none;
 
+
 }
 
 
@@ -81,4 +82,35 @@ body{
         margin: 0 5px;
     }
 
+}
+
+@media(min-width:1200px){
+    .main-header-top-bar,
+    .main-navbar{
+        max-width: 1200px;
+        border: solid 5px salmon;
+        margin: auto;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+            font-size: 19px;
+            margin-top: 50px;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .logo{
+        width: 250px;
+    }
 }
